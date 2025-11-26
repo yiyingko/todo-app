@@ -64,15 +64,16 @@ npm run dev
 
 ### 🛠 Project Commands
 
-| Command                | Description                                      |
-| ---------------------- | ------------------------------------------------ |
-| `npm run dev`          | Start local development server                   |
-| `npm run build`        | Build for production (`dist/` folder)            |
-| `npm run preview`      | Preview production build locally                 |
-| `npm run lint`         | Run ESLint checks                                |
-| `npm run lint:fix`     | Auto-fix some ESLint issues                      |
-| `npm run format`       | Format files using Prettier                      |
-| `npm run format:check` | CI / pre-commit style “is everything formatted?” |
+| Command                | Description                                                                   |
+| ---------------------- | ----------------------------------------------------------------------------- |
+| `npm run dev`          | Start local development server                                                |
+| `npm run build`        | Build for production (`dist/` folder)                                         |
+| `npm run preview`      | Preview production build locally                                              |
+| `npm run lint`         | Run ESLint checks                                                             |
+| `npm run lint:fix`     | Auto-fix some ESLint issues                                                   |
+| `npm run format`       | Format files using Prettier                                                   |
+| `npm run format:check` | CI / pre-commit style “is everything formatted?”                              |
+| `npm run setup-hooks`  | Re-enable the Git pre-commit hook manually (after cloning or resetting .git/) |
 
 ---
 
