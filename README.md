@@ -171,7 +171,7 @@ It checks:
 
 ## 🌐 Live Demo
 
-➡️ **Coming soon (Netlify link to be added)**
+➡️ **https://dapper-profiterole-ffb959.netlify.app/**
 
 ---
 
