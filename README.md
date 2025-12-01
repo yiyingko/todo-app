@@ -39,7 +39,7 @@ Developed with **React + Vite**, **ESLint/Prettier**, **semantic components**, a
 - **Prettier** for formatting
 - **Netlify** for deployment
 - **GitHub Actions** for CI
-- **CSS Modules** or **standard CSS** (depending on your preference)
+- **standard CSS**
 - **Modern browser APIs**
 
 ### Optional dev tools
@@ -56,7 +56,7 @@ npm run build      # production build for Netlify
 ## ⚙️ Setup & Local Run
 
 ```bash
-git clone https://github.com/<your-username>/todo-app
+git clone https://github.com/yiyingko/contact-form-pro.git
 cd todo-app
 npm install
 npm run dev
@@ -79,7 +79,7 @@ npm run dev
 
 ## 🧹 Code Quality
 
-This project uses **ESLint** + **Prettier** + (optional) **pre-commit hooks** to ensure consistent, clean code.
+Configured a CI pipeline with GitHub Actions to run ESLint, Prettier format checks, and Vite builds on every push and pull request, alongside Netlify deployment checks on main to ensure consistent, clean code.
 
 ### 🔧 Lint & Format Setup
 
@@ -89,7 +89,7 @@ When dependencies are installed:
 - `.prettierrc` controls formatting
 - `.prettierignore` excludes build folders
 
-### 🪶 Pre-commit Hook (optional)
+### 🪶 Pre-commit Hook
 
 A custom script can be enabled to run automatically:
 
@@ -97,7 +97,7 @@ A custom script can be enabled to run automatically:
 2. **Prettier** → formats code
 3. Commit proceeds only if the codebase is clean
 
-This keeps the main branch consistent and professional ✨
+Keeps the main branch consistent and professional.
 
 ---
 
@@ -123,9 +123,10 @@ A lightweight CI workflow runs on:
 
 It checks:
 
-- `npm install`
-- `npm run lint`
-- (Optional) `npm run test`
+- `npm ci` (Install dependencies)
+- `npm run lint` (ESLint)
+- `npm run format:check`(Prettier)
+- `npm run build`(Vite)
 
 ---
 
