@@ -1,0 +1,36 @@
+.hero {
+    background-image: url(../../assets/images/bg-mobile-dark.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+
+    height: 40vh;
+    overflow: hidden;
+
+}
+
+.hero__wrapper {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    padding-top: 15%;
+
+}
+
+h1 {
+    display: inline-block;
+    color: var(--Very-Light-Gray);
+}
+
+.hero__icon {
+    width: 10%;
+    height: 10%;
+}
+
+
+@media (min-width: 1440px) {
+    .hero {
+        background-image: url(../../assets/images/bg-desktop-dark.jpg);
+    }
+}
